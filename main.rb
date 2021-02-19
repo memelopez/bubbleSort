@@ -14,7 +14,7 @@ end
 unsorted_array = [10, 2, 8, 1, 0]
 puts 'Unsorted: ' + unsorted_array.join(', ')
 puts 'Sorted: ' + bubble_sort(unsorted_array).join(', ')
-  
+
 def bubble_sort_by(array)
   sorted = false
   until sorted
@@ -28,7 +28,7 @@ def bubble_sort_by(array)
   end
   array
 end
-  
+
 unsorted_strings = %w[hi hello hey]
 puts 'Unsorted-strings: ' + unsorted_strings.join(', ')
 result = bubble_sort_by(unsorted_strings) do |left, right|
